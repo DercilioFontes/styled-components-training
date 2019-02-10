@@ -3,7 +3,6 @@ import styled, { css, keyframes } from "styled-components";
 import { FaGithub } from "react-icons/fa";
 import logo from "./logo.svg";
 import dafdevImage from "./assets/img/dafdev.png";
-import grass from "./assets/img/grass.png";
 import "./App.css";
 
 // Components
