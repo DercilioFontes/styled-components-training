@@ -67,13 +67,13 @@ const Input = styled.input`
   font-size: 1.5em;
 `;
 
-const Quote = styled.blockquote`
+const Quote = styled.div`
   text-align: justify;
   background-color: #dcedff;
   color: #522b47;
-  padding: 2%;
-
+  padding: 5%;
   font-size: 1.2em;
+  margin-top: 3%;
 `;
 
 const Thing = styled(Button)`
@@ -132,6 +132,8 @@ const StyledFooter = styled.footer`
   background-color: #282c34;
   color: white;
   font-size: 1em;
+  padding-right: 1%;
+  padding-left: 1%;
 `;
 
 class App extends Component {
@@ -176,7 +178,7 @@ class App extends Component {
             <WineButton>Normal WineButton</WineButton>
             <WineButton primary>Primary WineButton</WineButton>
           </section>
-          <section>
+          <section id="buttons-link">
             <h2>"as" polymorphic prop</h2>
             <Button as="a" href="/">
               Button as Link

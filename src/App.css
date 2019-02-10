@@ -55,6 +55,14 @@ a.not-active {
 .github {
   font-size: 1.75em;;
 }
+
+#buttons-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #last-section {
   margin: 0;
 }
