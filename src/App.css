@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  /* min-height: 100vh; */
+  height: 13em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,39 @@ h2 {
 
 section {
   margin: 1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+div.complex-selectors {
+  padding: 2% 7.5% 0 7.5%;
+  font-size: 0.75em;
+  font-weight: lighter;
+}
+
+.animation {
+  background-image: url("./assets/img/grass.png");
+  height: 150px;
+  z-index: -1;
+  margin-top: -131px;
+}
+
+a.not-active {
+  text-decoration: none;
+  color: white;
+}
+
+.github {
+  font-size: 1.75em;
+}
+#last-section {
+  margin: 0;
+}
+#dafdev {
+  width: 2.2em;
+  height: 2.2em;
 }
 
 @keyframes App-logo-spin {
